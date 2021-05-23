@@ -4,9 +4,9 @@
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
   <ul>
-{% for question in site.data.question-list %}
+{% for line in site.data.questions %}
   <li>
-      {{ question.questions }}
+      {{ line.question }}
   </li>
 {% endfor %}
 </ul>
